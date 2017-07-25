@@ -1,27 +1,65 @@
-.jumbotron {
-  background: #532F8C;
-  color: white;
-  padding-bottom: 80px; }
-  .jumbotron .btn-primary {
-    background: #845ac7;
-    border-color: #845ac7; }
-    .jumbotron .btn-primary:hover {
-      background: #7646c1; }
-  .jumbotron p {
-    color: #d9ccee;
-    max-width: 75%;
-    margin: 1em auto 2em; }
-  .navbar + .jumbotron {
-    margin-top: -20px; }
-  .jumbotron .lang-logo {
-    display: block;
-    background: #B01302;
-    border-radius: 50%;
-    overflow: hidden;
-    width: 100px;
-    height: 100px;
-    margin: auto;
-    border: 2px solid white; }
-    .jumbotron .lang-logo img {
-      max-width: 100%; }
+body {
+  background-color: #4ABDAC;
+  color: #FFFFFF;
+  font-family: Georgia, serif;
+  
+}
+/*A minimum of 700px is required for the title and subtitle to always have space between them*/
+header {
+  background-color: #F7B733;
+  height: 75px;
+  min-width:700px;
+}
 
+h1 {
+  padding: 15px;
+}
+h2{
+	float:right;
+	padding-right: 2em;
+}
+#navigation {
+  height: 30px;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 600px;
+}
+
+#navigation li:hover {
+  border-bottom: 1px #FC4A1A solid;
+}
+ul{
+	list-style-type: none;
+}
+li{
+	width:20%;
+	float:left;
+	text-align:center;
+	font-size: 1em;
+	min-width: 100px;
+}
+
+#content {
+  background-color: #DFDCE3;
+  width: 50%;
+  margin: 0 auto;
+  min-width: 600px;
+}
+div {
+  background-color: #FC4A1A;
+  width: 250px;
+  height: 150px;
+  padding: 10px;
+  margin: 20px;
+}
+/*The only floating objects are the ones that should be on the right
+since the ones that should go left (which in the HTML file are under) 
+will wrap themselves to the left of the floating objects.
+also, in order for it to never desfigurate, a min width of 600px on 
+the content is required.*/
+#topRight, #bottomRight{
+	float:right;
+	padding-top 0px;
+	margin-top:0px;
+}
