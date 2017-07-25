@@ -8,7 +8,7 @@ body {
 header {
   background-color: #F7B733;
   height: 75px;
-  min-width:700px;
+  min-width:43em;
 }
 
 h1 {
@@ -23,7 +23,7 @@ h2{
   width: 40%;
   margin-left: auto;
   margin-right: auto;
-  min-width: 600px;
+  min-width: 35em;
 }
 
 #navigation li:hover {
@@ -44,7 +44,7 @@ li{
   background-color: #DFDCE3;
   width: 50%;
   margin: 0 auto;
-  min-width: 600px;
+  min-width: 37em;
 }
 div {
   background-color: #FC4A1A;
